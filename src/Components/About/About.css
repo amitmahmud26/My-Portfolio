@@ -29,6 +29,7 @@
     display: flex;
     flex-direction: column;
     gap: 80px;
+    justify-content: center;
 }
 .about-para{
     display: flex;
@@ -93,4 +94,7 @@
 .about-achievement:hover{
     transform: scale(1.12);
     transition: 0.5s;
+}
+.profile-img{
+    border-radius: 10px;
 }
