@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navber.css'
 import logo from '../../assets/logo.png'
+import download_logo from '../../assets/download.png'
 
 const Navbar = () => {
   return (
@@ -13,7 +14,7 @@ const Navbar = () => {
             <li>Portfolio</li>
             <li>Contact</li>
         </ul>
-        <div className="nav-connect">Connect With Me</div>
+        <a href="https://drive.google.com/uc?export=download&id=1FeuAdT8d-BOro34lHhepSMUkwvTUD3Tc"><div className="nav-connect">Download Resume ↓</div></a>
     </div>
   )
 }
