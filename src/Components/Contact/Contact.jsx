@@ -17,10 +17,10 @@ const Contact = () => {
           <p>I'm currently available to take on new projects or collaborate with you. So, feel free to contact me.</p>
           <div className="contact-details">
             <div className="contact-detail">
-              <img src={mail_icon} alt="" />
+              <img src={mail_icon} alt="" /> <p>amitsabbir26@gmail.com</p>
             </div>
             <div className="contact-detail">
-              <img src={call_icon} alt="" /> <p></p>
+              <img src={call_icon} alt="" /> <p>+8801521745494</p>
             </div>
             <div className="contact-detail">
               <img src={location_icon} alt="" /> <p>Madani Avenue, Vatara, Dhaka-1212, Bangladesh</p>
