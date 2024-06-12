@@ -1,8 +1,14 @@
 .navbar{
+    background: rgba(0,0,0, 0.7);
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 170px;
+    padding: 12px 170px;
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 .navbar li{
     display: flex;
