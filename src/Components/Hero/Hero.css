@@ -49,6 +49,10 @@
     border: 2px solid#fff;
     cursor: pointer;
 }
+.hero-action a{
+    text-decoration: none;
+    color: white;
+}
 .hero-connect:hover{
     border: 2px solid white;
 }.hero-resume:hover{

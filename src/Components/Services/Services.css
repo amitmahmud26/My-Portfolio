@@ -21,11 +21,14 @@
     right: 0;
     z-index: -1;
 }
+.service-desc{
+    height: 60%;
+}
 .services-format{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     padding: 60px;
     border: 2px solid white;
     transition: 0.4s;
