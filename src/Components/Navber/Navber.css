@@ -18,6 +18,9 @@
     gap: 60px;
     font-size: 20px;
 }
+.nav-menu li{
+    cursor: pointer;
+}
 .nav-connect{
     padding: 20px 40px;
     border-radius: 50px;
