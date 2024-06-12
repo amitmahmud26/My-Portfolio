@@ -4,7 +4,7 @@ import profile_img from '../../assets/profile_img.png'
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div id='home' className='hero'>
         <img src={profile_img} alt="" />
         <h1><span>I'm Amit Mahmud Sabbir,</span> student of CSE at United International University. </h1>
         <p>I'm also an Undergraduate Teaching Assistant (UA) at United International University</p>
