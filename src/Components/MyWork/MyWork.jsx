@@ -25,7 +25,7 @@ const MyWork = () => {
             {mywork_data.slice(0,visibleCards).map((work, index)=>{
                 return(
                     <div className='mywork-single'>
-                    <a href={work.w_link} target='blank'><img key={index} src={work.w_img} /></a>
+                    <a href={work.w_link} target='blank'><img key={index} src={work.w_img}/></a>
                     <h2>{work.w_name}</h2>
                     </div>
                 )
