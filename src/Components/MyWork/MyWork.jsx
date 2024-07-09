@@ -33,7 +33,7 @@ const MyWork = () => {
         </div>
         <div className="mywork-showmore">
             <p onClick={showMoreCards}>Show More</p>
-            <img src={arrow_icon} alt="arroww" />
+            <img src={arrow_icon} alt="arrow" />
         </div>
     </div>
   )
