@@ -9,10 +9,18 @@ const MyWork = () => {
     const [visibleCards, setVisibleCards] = useState(6);
     const showMoreCards = () =>{
         setVisibleCards(mywork_data.length);
-        
+        setShowButtonMore(false);
+        setShowButtonLess(true);
     };
+    const [showButtonMore, setShowButtonMore] = useState(true);
+    const [showButtonLess, setShowButtonLess] = useState(false);
+    // const toggleButton = () =>{
+    //     setShowButton(false);
+    // }
     const showLessCards = () =>{
-        setVisibleCards(3);
+        setVisibleCards(6);
+        setShowButtonLess(false);
+        setShowButtonMore(true);
     };
 
   return (
@@ -31,10 +39,18 @@ const MyWork = () => {
                 )
             })}
         </div>
-        <div className="mywork-showmore">
-            <p onClick={showMoreCards}>Show More</p>
+        {showButtonMore &&
+            <div onClick={showMoreCards} className="mywork-showmore">
+                <p>Show More</p>
+                <img src={arrow_icon} alt="arrow" />
+            </div>
+        }
+        {showButtonLess &&
+            <div onClick={showLessCards} className="mywork-showmore">
+            <p>Show Less</p>
             <img src={arrow_icon} alt="arrow" />
         </div>
+        }
     </div>
   )
 }

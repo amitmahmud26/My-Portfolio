@@ -87,3 +87,23 @@
     width: 80%;
         
 }
+@media (max-width: 768px) {
+    .footer{
+        margin: 50px 70px;
+        /* display: none; */
+    }
+    .footer-top{
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .footer-bottom{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        align-items: center;
+    }
+    .footer-bottom-right{
+        display: none;
+    }
+}
