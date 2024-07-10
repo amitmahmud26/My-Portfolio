@@ -64,7 +64,7 @@
     .navbar{
         margin: 20px 50px;
         margin-left: -140px;
-        margin-right: -140px;
+        /* margin-right: -140px; */
     }
     .nav-connect{
         display: none;
